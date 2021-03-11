@@ -1,0 +1,12 @@
+.container {
+  padding: 30px;
+  background: #419be0;
+  width: auto;
+  height: 600px;
+}
+
+.slick-slide img {
+  margin: auto;
+  width: auto;
+  height: 600px;
+}
