@@ -6,10 +6,11 @@ import "./index.css";
 
 
 const ReactSlick = () => {
-    const [animals, setAnimals] = useState([{ src: 'http://placekitten.com/g/400/400', type: 'cat' }, { src: 'http://placekitten.com/g/800/400', type: 'cat' }, { src: 'http://placekitten.com/g/1400/1200', type: 'cat' }, { src: 'http://placekitten.com/g/800/800', type: 'cat' }, { src: 'https://placedog.net/500/280', type: 'dog' }, { src: 'https://placedog.net/600/380', type: 'dog' }])
+    const [animals, setAnimals] = useState([])
+    animals = [{ src: 'http://placekitten.com/g/400/400', type: 'cat' }, { src: 'http://placekitten.com/g/800/400', type: 'cat' }, { src: 'http://placekitten.com/g/1400/1200', type: 'cat' }, { src: 'http://placekitten.com/g/800/800', type: 'cat' }, { src: 'https://placedog.net/500/280', type: 'dog' }, { src: 'https://placedog.net/600/380', type: 'dog' }]
 
     const arrayToCats = (animals) => {
-        this.setAnimals(animals.filter(animal => animal.type === 'cat'))
+        setAnimals(animals.filter(animal => animal.type === 'cat'))
 
     }
     var settings = {
