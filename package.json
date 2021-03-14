@@ -1,19 +1,21 @@
 {
   "name": "react-slick-playground",
   "version": "0.0.18",
-  "description": null,
+  "description": "sss",
   "keywords": [],
   "homepage": "https://codesandbox.io/s/zzloxr09mp",
   "main": "index.js",
   "dependencies": {
+    "babel-plugin-dynamic-import-node": "^2.3.3",
     "react": "16.5.2",
-    "react-dom": "16.5.2",
+    "react-dom": "^16.5.2",
     "react-slick": "latest",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
+    "html-webpack-plugin": "^5.3.1",
     "react-scripts": "1.0.0",
-    "webpack": "^5.24.4",
+    "webpack": "^5.25.0",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
   },
@@ -21,6 +23,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "webpack --mode development"
   }
 }
